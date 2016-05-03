@@ -1,0 +1,150 @@
+html,body {
+    height: 100%;
+} 
+
+body {
+    margin: 0 0 0 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#header-container {
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: -100;
+}
+
+#header-img {
+    height: 100%; 
+}
+
+
+#header-dummy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    height: 100%;
+}
+
+#header-sig {
+    margin-top: 10em;
+    width: 50em;
+    max-width: 75%;
+}
+
+#header-logo{
+    margin: 10em;
+    height: 100%; 
+    opacity: .02;
+    position: fixed;
+}
+
+#body-container {
+    height: 100%;
+}
+
+.nav-background {
+    background: #222;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-top: -10em;
+}
+.nav a {
+    color: white;
+    padding: .5em;
+    font-family: 'Poiret One', cursive;
+    font-size: 175%;
+    font-style: none;
+    text-decoration: none;
+}
+
+.nav-push {
+    height: 20em;
+    background: transparent;
+}
+
+.content {
+    background-color: white;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+}
+.social-links a{
+    padding: 0em 5px 0em 5px;
+    margin-top: -1%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contained {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.pad-lr {
+    padding-bottom: 5em;
+}
+
+.about-me{
+    width: 100%;
+    margin-top: -5%;
+}
+.about-me h1 {
+    float: right;
+    margin-top: 20%;;
+}
+.about-me img{
+    width: 25%;
+    max-width: 500px;
+    min-width: 200px;
+    border-radius: 50%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 2em;
+}
+.project-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.project img {
+    padding: 1em;
+}
+
+
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.email-form {
+    
+}
+
+.footer {
+    height: 200px; 
+    background-color: #222;
+}

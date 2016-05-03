@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="123" width="143" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" stroke="#000" transform="translate(141.5 -1010.9)">
+  <path id="path3268" stroke-linejoin="miter" d="m-80 1102.4v30l20-10v-20l20 10 40-20v-40l-40-20-19.987 9.9933m19.987 10l20 10v20l-20 10-20-10v-20z" stroke-width="2" fill="none"/>
+  <path id="path3266" d="m-80 1092.4z" stroke-width="1px" fill="none"/>
+  <g id="g5458" stroke-width="3" fill="#fff">
+   <path id="path3270" stroke-linejoin="miter" d="m-80 1012.4v30l-20-10-40 20v40l40 20 40-20v-70l-20-10zm-20 40 20 10v20l-20 10-20-10v-20l20-10z" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+ </g>
+</svg>
