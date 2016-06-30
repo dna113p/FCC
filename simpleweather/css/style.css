@@ -1,0 +1,41 @@
+html, body {height: 100%}
+
+body {
+  margin-top: -1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+
+  font-family: Dosis, sans-serif;
+  font-weight: 200;
+}
+
+.weather-container {
+  padding: 1em;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#icon{
+  margin: 0;
+  font-size: 10em;
+  color: #EEE;
+}
+
+#temp {
+  margin: 0;
+  padding: 0;
+}
+#city {
+  margin: 0;
+  padding 0;
+}
+
+.temp-text {
+  padding: 0;
+  color: #EEE;
+}

@@ -1,0 +1,20 @@
+body {
+  background-color: #EEE;
+  overflow-x: hidden;
+}
+
+.crop-height {
+  max-height: 70em;
+  overflow: hidden;
+}
+dd {
+  margin-bottom: 1em;
+}
+
+.jumbo {
+  font-size: 500%;
+}
+
+.row {
+  padding: 1em;
+}

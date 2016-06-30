@@ -1,0 +1,65 @@
+html, body {height: 100%; width: 100%;}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#app-container {
+  position: relative;
+  top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  padding: 1em;
+}
+
+
+#search-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#search-wrapper input{
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#search-wrapper i{
+  margin-left: -1em;
+  margin-top: -.5em;
+  font-size: 2em;
+}
+#channel-list {
+  width: 100%;
+}
+.channel-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-begin;
+  align-items: center;
+  border-bottom: #DDD solid 1px;
+}
+
+.channel-container:hover {
+  background-color: #DDD;
+}
+.channel-container img {
+  height: 3em;
+}
+.channel-container h5 {
+  padding-left: .3em;
+  flex-grow: 2;
+}
+.channel-container p {
+  text-align: right;
+}
+
+.Offline {
+  color: #BBB;
+}

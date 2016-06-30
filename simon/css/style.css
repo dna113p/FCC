@@ -1,0 +1,74 @@
+body {
+  font-family: 'Poiret One', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mask {
+  border: 20px solid #222;
+  border-radius: 50%;
+  overflow:hidden;
+}
+#ui{
+  width: 230px;
+  height: 230px;
+  position: relative;
+  background: #333;
+  margin-top: -355px;
+  border-radius: 50%;
+  border: 10px solid #222;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#ui button {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5em;
+  width: 100px;
+  height: 40px;
+  background: #EEE;
+}
+
+#count {
+  color: #EEE;
+  font-size: 3em;
+}
+
+.container {
+  margin: -10px;
+  display:flex;
+  flex-direction: column;
+}
+.row {
+  display:flex;
+  flex-direction: row;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border:  10px solid #222;
+}
+
+.green {
+  background: #4CAF50;
+}
+.blue {
+  background: #2196F3;
+}
+.yellow {
+  background: #FDD835;
+}
+.red {
+  background: #F44336; 
+}
+.highlight {
+  box-shadow: inset 50px 150px 200px #fff;
+}
+
+.fa-refresh {
+  color: #EEE;
+  font-size: 2em;
+}
