@@ -115,6 +115,9 @@ var following = ["yuuie", "seagull", "comster404", "brunofin", "2GGaming", "Peev
 function getTwitch(url, cb) {
   $.ajax({
     url: "https://api.twitch.tv/kraken" + url,
+    headers: {
+   'Client-ID': 'tjpfpk6agtqxl69i81hj5ocqgjgc6h'
+    },
     data: {
       accept: 'application/vnd.twitchtv.v3+json',
     },
