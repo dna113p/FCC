@@ -109,7 +109,7 @@ $(document).ready(function() {
 
 });
 
-var following = ["yuuie", "seagull", "comster404", "brunofin", "2GGaming", "Peeve", "VGBootCamp", "freecodecamp", "storbeck", "terakilobyte", "habathcx", "RobotCaleb", "thomasballinger", "noobs2ninjas", "beohoff", "OMGitsfirefoxx", "ESL_SC2"]
+var following = ["seagull", "comster404", "ster", "ESL_SC2", "imaqtpie", "Doublelift", "moonduckTV", "ESL_Hearthstone", "TrumpSC"]
 
 //Ajax request for a twitch stream
 function getTwitch(url, cb) {
